@@ -1,0 +1,135 @@
+{
+  "success": true,
+  "data": {
+    "voting": {
+      "algorithm": "Voting Regressor",
+      "voting_strategy": "average",
+      "base_models": {
+        "Linear Regression": {
+          "r2_score": 0.5943782479239207,
+          "rmse": 10.47620198211852,
+          "mae": 8.298580847947502
+        },
+        "Random Forest": {
+          "r2_score": 0.8856023202171713,
+          "rmse": 5.563548173206541,
+          "mae": 3.879883254179247
+        },
+        "XGBoost": {
+          "r2_score": 0.9094817897476446,
+          "rmse": 4.948929008113395,
+          "mae": 3.3172537399998823
+        }
+      },
+      "ensemble_performance": {
+        "r2_score": 0.8739208884207617,
+        "rmse": 5.84069885488319,
+        "mae": 4.392326795318337,
+        "improvement_over_best_base": "-3.9%",
+        "raw_improvement": -3.9100179605300385
+      },
+      "feature_importance": {
+        "cement": 0.32047185416512664,
+        "blast_furnace_slag": 0.06985126876310917,
+        "fly_ash": 0.020959257962024396,
+        "water": 0.11776927544945509,
+        "superplasticizer": 0.06999122362966485,
+        "coarse_aggregate": 0.026158948830026733,
+        "fine_aggregate": 0.03624466919552144,
+        "age": 0.3385535020050716
+      },
+      "predictions_sample": [
+        {
+          "actual": 37.26,
+          "predicted": 39.23337047907867,
+          "linear_reg": 36.071906365195545,
+          "random_forest": 40.78701612264101,
+          "xgboost": 40.841188949399445
+        },
+        {
+          "actual": 19.11,
+          "predicted": 25.444216436972994,
+          "linear_reg": 26.635264114738085,
+          "random_forest": 23.90082615079366,
+          "xgboost": 25.796559045387234
+        },
+        {
+          "actual": 65.91,
+          "predicted": 56.86071104011173,
+          "linear_reg": 47.32406815918901,
+          "random_forest": 58.04089063283202,
+          "xgboost": 65.21717432831416
+        },
+        {
+          "actual": 52.96,
+          "predicted": 49.38672656313262,
+          "linear_reg": 41.87492004509746,
+          "random_forest": 52.27156678420355,
+          "xgboost": 54.013692860096846
+        },
+        {
+          "actual": 32.92,
+          "predicted": 31.20282734954012,
+          "linear_reg": 28.41904129069004,
+          "random_forest": 34.32319664074224,
+          "xgboost": 30.866244117188078
+        },
+        {
+          "actual": 41.89,
+          "predicted": 35.59330410544418,
+          "linear_reg": 34.868121195225626,
+          "random_forest": 34.123694160068695,
+          "xgboost": 37.78809696103822
+        },
+        {
+          "actual": 29.79,
+          "predicted": 37.0531134527943,
+          "linear_reg": 54.50570092993891,
+          "random_forest": 29.537829801152284,
+          "xgboost": 27.115809627291693
+        },
+        {
+          "actual": 23.84,
+          "predicted": 30.927235271464728,
+          "linear_reg": 27.93651178091711,
+          "random_forest": 33.86360891870076,
+          "xgboost": 30.981585114776312
+        },
+        {
+          "actual": 32.04,
+          "predicted": 29.179720817555836,
+          "linear_reg": 23.879545724117616,
+          "random_forest": 32.476238381862316,
+          "xgboost": 31.18337834668758
+        },
+        {
+          "actual": 13.29,
+          "predicted": 15.95380545517486,
+          "linear_reg": 19.32169820306577,
+          "random_forest": 13.867099523809516,
+          "xgboost": 14.672618638649297
+        }
+      ]
+    },
+    "dataset_info": {
+      "dataset_id": "concrete",
+      "n_samples": 1030,
+      "n_features": 8,
+      "feature_names": [
+        "cement",
+        "blast_furnace_slag",
+        "fly_ash",
+        "water",
+        "superplasticizer",
+        "coarse_aggregate",
+        "fine_aggregate",
+        "age"
+      ],
+      "is_classification": false,
+      "task_type": "regression",
+      "target_variable": "concrete_compressive_strength",
+      "train_size": 721,
+      "test_size": 309
+    }
+  }
+}

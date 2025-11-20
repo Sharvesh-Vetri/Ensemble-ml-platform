@@ -1,0 +1,205 @@
+{
+  "success": true,
+  "data": {
+    "stacking": {
+      "algorithm": "Stacking Regressor",
+      "meta_learner": "Linear Regression",
+      "base_models": {
+        "Linear Regression": {
+          "r2_score": 0.8388883855675721,
+          "rmse": 3.04079188544988,
+          "mae": 2.375782458154676
+        },
+        "Random Forest": {
+          "r2_score": 0.8835800879525645,
+          "rmse": 2.5848592875100205,
+          "mae": 1.7792166639645373
+        },
+        "XGBoost": {
+          "r2_score": 0.8368846511159468,
+          "rmse": 3.0596425189338317,
+          "mae": 1.9521148788601816
+        }
+      },
+      "meta_model_performance": {
+        "r2_score": 0.8835575316522283,
+        "rmse": 2.585109682985887,
+        "mae": 1.837801285085839,
+        "improvement_over_best_base": ">-0.1%",
+        "raw_improvement": -0.002552830314281393
+      },
+      "meta_weights": {
+        "linear": 0.1695492973802466,
+        "rf": 0.7070664672215851,
+        "xgb": 0.12338423539816844
+      },
+      "expert_wins": {
+        "linear": 31,
+        "rf": 45,
+        "xgb": 44
+      },
+      "best_expert": "Random Forest",
+      "feature_importance": {
+        "cylinders": 0.06459981400074438,
+        "displacement": 0.558156349024191,
+        "horsepower": 0.020256846667930904,
+        "weight": 0.1746420955175543,
+        "acceleration": 0.023343648963709877,
+        "model year": 0.13749947493078607,
+        "origin": 0.0044382188753212,
+        "car name": 0.017063552019762118
+      },
+      "predictions_sample": [
+        {
+          "actual": 18.1,
+          "predicted": 20.518693447892282,
+          "linear_reg": 21.074844334816262,
+          "random_forest": 20.204606280547424,
+          "xgboost": 19.751114145241345
+        },
+        {
+          "actual": 23.0,
+          "predicted": 20.09683044669224,
+          "linear_reg": 21.41217337044511,
+          "random_forest": 19.592099567099567,
+          "xgboost": 19.203983889521826
+        },
+        {
+          "actual": 27.0,
+          "predicted": 27.14917578634259,
+          "linear_reg": 25.08899470095395,
+          "random_forest": 27.440554473304477,
+          "xgboost": 27.450726790691416
+        },
+        {
+          "actual": 23.8,
+          "predicted": 23.320900071905417,
+          "linear_reg": 25.372829883189006,
+          "random_forest": 22.460909523809523,
+          "xgboost": 21.98530597331682
+        },
+        {
+          "actual": 36.1,
+          "predicted": 36.07281590197333,
+          "linear_reg": 34.18138565130545,
+          "random_forest": 35.51652251461988,
+          "xgboost": 33.35646277437927
+        },
+        {
+          "actual": 24.0,
+          "predicted": 26.910754787743127,
+          "linear_reg": 26.788857477903264,
+          "random_forest": 26.56762698412699,
+          "xgboost": 26.196745749696948
+        },
+        {
+          "actual": 22.0,
+          "predicted": 24.809059406458562,
+          "linear_reg": 26.16411642556072,
+          "random_forest": 24.389505203619905,
+          "xgboost": 25.307959758811403
+        },
+        {
+          "actual": 11.0,
+          "predicted": 15.101478051962575,
+          "linear_reg": 16.67966022814777,
+          "random_forest": 14.626381313131315,
+          "xgboost": 13.839562150952384
+        },
+        {
+          "actual": 23.0,
+          "predicted": 23.516599645587036,
+          "linear_reg": 23.808900393454895,
+          "random_forest": 23.12634374236874,
+          "xgboost": 22.490124990949358
+        },
+        {
+          "actual": 14.0,
+          "predicted": 12.393638582870135,
+          "linear_reg": 10.407194741184568,
+          "random_forest": 13.21813888888889,
+          "xgboost": 13.192941864909466
+        }
+      ],
+      "feature_insights": {
+        "most_important_feature": "displacement",
+        "median_value": -0.5364891864299939,
+        "high_scenario": {
+          "condition": "> -0.54",
+          "best_expert": "Random Forest",
+          "wins": {
+            "linear": 9,
+            "rf": 26,
+            "xgb": 21
+          }
+        },
+        "low_scenario": {
+          "condition": "\u2264 -0.54",
+          "best_expert": "XGBoost",
+          "wins": {
+            "linear": 22,
+            "rf": 19,
+            "xgb": 23
+          }
+        }
+      },
+      "cross_validation": {
+        "voting": {
+          "mean_r2": 0.8500685878009104,
+          "std_r2": 0.03002950877278245,
+          "confidence_95": [
+            0.7912107506062568,
+            0.9089264249955641
+          ],
+          "all_scores": [
+            0.9011158566495121,
+            0.8595222338558887,
+            0.8213045241086839,
+            0.849735230308097,
+            0.8186650940823703
+          ]
+        },
+        "stacking": {
+          "mean_r2": 0.8422317901070814,
+          "std_r2": 0.02985426011895485,
+          "confidence_95": [
+            0.7837174402739299,
+            0.9007461399402329
+          ],
+          "all_scores": [
+            0.8950107318200793,
+            0.8283468650554385,
+            0.8168918923772467,
+            0.8547421477474806,
+            0.8161673135351618
+          ]
+        },
+        "statistical_test": {
+          "p_value": 0.2705996282137418,
+          "is_significant": false,
+          "confidence_level": "95%"
+        }
+      }
+    },
+    "dataset_info": {
+      "dataset_id": "automobile",
+      "n_samples": 398,
+      "n_features": 8,
+      "feature_names": [
+        "cylinders",
+        "displacement",
+        "horsepower",
+        "weight",
+        "acceleration",
+        "model year",
+        "origin",
+        "car name"
+      ],
+      "is_classification": false,
+      "task_type": "regression",
+      "target_variable": "mpg",
+      "train_size": 278,
+      "test_size": 120
+    }
+  }
+}

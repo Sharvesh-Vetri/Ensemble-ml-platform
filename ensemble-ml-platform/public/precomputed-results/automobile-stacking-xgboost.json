@@ -1,0 +1,201 @@
+{
+  "success": true,
+  "data": {
+    "stacking": {
+      "algorithm": "Stacking Regressor",
+      "meta_learner": "XGBoost",
+      "base_models": {
+        "Linear Regression": {
+          "r2_score": 0.8388883855675721,
+          "rmse": 3.04079188544988,
+          "mae": 2.375782458154676
+        },
+        "Random Forest": {
+          "r2_score": 0.8835800879525645,
+          "rmse": 2.5848592875100205,
+          "mae": 1.7792166639645373
+        },
+        "XGBoost": {
+          "r2_score": 0.8368846511159468,
+          "rmse": 3.0596425189338317,
+          "mae": 1.9521148788601816
+        }
+      },
+      "meta_model_performance": {
+        "r2_score": 0.8762244840092432,
+        "rmse": 2.665266530529453,
+        "mae": 1.790405466099748,
+        "improvement_over_best_base": "-0.8%",
+        "raw_improvement": -0.8324773321188891
+      },
+      "meta_weights": null,
+      "expert_wins": {
+        "linear": 31,
+        "rf": 45,
+        "xgb": 44
+      },
+      "best_expert": "Random Forest",
+      "feature_importance": {
+        "cylinders": 0.06459981400074438,
+        "displacement": 0.558156349024191,
+        "horsepower": 0.020256846667930904,
+        "weight": 0.1746420955175543,
+        "acceleration": 0.023343648963709877,
+        "model year": 0.13749947493078607,
+        "origin": 0.0044382188753212,
+        "car name": 0.017063552019762118
+      },
+      "predictions_sample": [
+        {
+          "actual": 26.0,
+          "predicted": 26.018019040171158,
+          "linear_reg": 26.33634731575681,
+          "random_forest": 25.692005555555564,
+          "xgboost": 25.636425277350554
+        },
+        {
+          "actual": 38.0,
+          "predicted": 35.87761713952324,
+          "linear_reg": 32.67614610762062,
+          "random_forest": 35.7325446026196,
+          "xgboost": 36.58305250140482
+        },
+        {
+          "actual": 16.0,
+          "predicted": 16.268657261337076,
+          "linear_reg": 16.74581179976863,
+          "random_forest": 16.058666666666667,
+          "xgboost": 18.024061346018986
+        },
+        {
+          "actual": 29.9,
+          "predicted": 33.43241484910804,
+          "linear_reg": 30.552514475864896,
+          "random_forest": 35.421202899877905,
+          "xgboost": 36.055825434645875
+        },
+        {
+          "actual": 36.1,
+          "predicted": 36.08430909747458,
+          "linear_reg": 34.18138565130545,
+          "random_forest": 35.51652251461988,
+          "xgboost": 33.35646277437927
+        },
+        {
+          "actual": 20.6,
+          "predicted": 20.369571759678855,
+          "linear_reg": 22.638466960183912,
+          "random_forest": 20.210176915468033,
+          "xgboost": 20.37005216128912
+        },
+        {
+          "actual": 16.2,
+          "predicted": 20.244275446077456,
+          "linear_reg": 22.84824148414678,
+          "random_forest": 21.050976190476185,
+          "xgboost": 19.062233603449037
+        },
+        {
+          "actual": 37.3,
+          "predicted": 33.647170906057006,
+          "linear_reg": 30.99378310659846,
+          "random_forest": 34.46522678770188,
+          "xgboost": 36.971722369725455
+        },
+        {
+          "actual": 17.0,
+          "predicted": 14.814824103698996,
+          "linear_reg": 14.530991388409914,
+          "random_forest": 14.53580194805195,
+          "xgboost": 14.035005604164251
+        },
+        {
+          "actual": 18.0,
+          "predicted": 15.7485286472593,
+          "linear_reg": 14.370660217824087,
+          "random_forest": 15.084919772256729,
+          "xgboost": 15.711033807388969
+        }
+      ],
+      "feature_insights": {
+        "most_important_feature": "displacement",
+        "median_value": -0.5364891864299939,
+        "high_scenario": {
+          "condition": "> -0.54",
+          "best_expert": "Random Forest",
+          "wins": {
+            "linear": 9,
+            "rf": 26,
+            "xgb": 21
+          }
+        },
+        "low_scenario": {
+          "condition": "\u2264 -0.54",
+          "best_expert": "XGBoost",
+          "wins": {
+            "linear": 22,
+            "rf": 19,
+            "xgb": 23
+          }
+        }
+      },
+      "cross_validation": {
+        "voting": {
+          "mean_r2": 0.8500685878009104,
+          "std_r2": 0.03002950877278245,
+          "confidence_95": [
+            0.7912107506062568,
+            0.9089264249955641
+          ],
+          "all_scores": [
+            0.9011158566495121,
+            0.8595222338558887,
+            0.8213045241086839,
+            0.849735230308097,
+            0.8186650940823703
+          ]
+        },
+        "stacking": {
+          "mean_r2": 0.8250040082340847,
+          "std_r2": 0.03177967820639792,
+          "confidence_95": [
+            0.7627158389495448,
+            0.8872921775186247
+          ],
+          "all_scores": [
+            0.870213713531059,
+            0.8162652838523181,
+            0.8087911689108225,
+            0.8499563047742755,
+            0.7797935701019484
+          ]
+        },
+        "statistical_test": {
+          "p_value": 0.03810771606856521,
+          "is_significant": true,
+          "confidence_level": "95%"
+        }
+      }
+    },
+    "dataset_info": {
+      "dataset_id": "automobile",
+      "n_samples": 398,
+      "n_features": 8,
+      "feature_names": [
+        "cylinders",
+        "displacement",
+        "horsepower",
+        "weight",
+        "acceleration",
+        "model year",
+        "origin",
+        "car name"
+      ],
+      "is_classification": false,
+      "task_type": "regression",
+      "target_variable": "mpg",
+      "train_size": 278,
+      "test_size": 120
+    }
+  }
+}

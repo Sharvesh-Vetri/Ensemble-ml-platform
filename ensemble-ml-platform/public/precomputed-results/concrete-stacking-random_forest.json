@@ -1,0 +1,201 @@
+{
+  "success": true,
+  "data": {
+    "stacking": {
+      "algorithm": "Stacking Regressor",
+      "meta_learner": "Random Forest",
+      "base_models": {
+        "Linear Regression": {
+          "r2_score": 0.5943782479239207,
+          "rmse": 10.47620198211852,
+          "mae": 8.298580847947502
+        },
+        "Random Forest": {
+          "r2_score": 0.8856023202171713,
+          "rmse": 5.563548173206541,
+          "mae": 3.879883254179247
+        },
+        "XGBoost": {
+          "r2_score": 0.9094817897476446,
+          "rmse": 4.948929008113395,
+          "mae": 3.3172537399998823
+        }
+      },
+      "meta_model_performance": {
+        "r2_score": 0.901923504569823,
+        "rmse": 5.151405225173895,
+        "mae": 3.586086884228811,
+        "improvement_over_best_base": "-0.8%",
+        "raw_improvement": -0.8310540423155535
+      },
+      "meta_weights": null,
+      "expert_wins": {
+        "linear": 52,
+        "rf": 104,
+        "xgb": 153
+      },
+      "best_expert": "XGBoost",
+      "feature_importance": {
+        "cement": 0.32047185416512664,
+        "blast_furnace_slag": 0.06985126876310917,
+        "fly_ash": 0.020959257962024396,
+        "water": 0.11776927544945509,
+        "superplasticizer": 0.06999122362966485,
+        "coarse_aggregate": 0.026158948830026733,
+        "fine_aggregate": 0.03624466919552144,
+        "age": 0.3385535020050716
+      },
+      "predictions_sample": [
+        {
+          "actual": 19.11,
+          "predicted": 23.61395632995466,
+          "linear_reg": 26.635264114738085,
+          "random_forest": 23.90082615079366,
+          "xgboost": 25.796559045387234
+        },
+        {
+          "actual": 61.07,
+          "predicted": 55.653379144323814,
+          "linear_reg": 55.64024675737091,
+          "random_forest": 55.43428529607649,
+          "xgboost": 56.191987809138
+        },
+        {
+          "actual": 26.2,
+          "predicted": 22.719199876689764,
+          "linear_reg": 23.40031195405585,
+          "random_forest": 26.02095752482363,
+          "xgboost": 22.626610938321626
+        },
+        {
+          "actual": 43.38,
+          "predicted": 41.195940584143024,
+          "linear_reg": 37.30013025736739,
+          "random_forest": 40.33005101648982,
+          "xgboost": 39.36762152526742
+        },
+        {
+          "actual": 27.68,
+          "predicted": 29.65804538638128,
+          "linear_reg": 34.36552929350843,
+          "random_forest": 30.859020519100763,
+          "xgboost": 27.6945362856344
+        },
+        {
+          "actual": 27.66,
+          "predicted": 29.54141377895408,
+          "linear_reg": 26.128330226277143,
+          "random_forest": 30.7440177529707,
+          "xgboost": 30.260615485928366
+        },
+        {
+          "actual": 44.21,
+          "predicted": 40.729980930622006,
+          "linear_reg": 44.25279068887693,
+          "random_forest": 38.614152356254856,
+          "xgboost": 39.17802228464304
+        },
+        {
+          "actual": 33.4,
+          "predicted": 34.71482104857964,
+          "linear_reg": 55.31963157276307,
+          "random_forest": 34.700666666666706,
+          "xgboost": 34.73907729206505
+        },
+        {
+          "actual": 24.28,
+          "predicted": 22.574506264293717,
+          "linear_reg": 23.864902461260563,
+          "random_forest": 24.436478818367295,
+          "xgboost": 25.326063278128977
+        },
+        {
+          "actual": 31.72,
+          "predicted": 35.4137766094578,
+          "linear_reg": 30.133280383084138,
+          "random_forest": 36.82853502442002,
+          "xgboost": 32.22576100416372
+        }
+      ],
+      "feature_insights": {
+        "most_important_feature": "age",
+        "median_value": -0.2929804242517981,
+        "high_scenario": {
+          "condition": "> -0.29",
+          "best_expert": "XGBoost",
+          "wins": {
+            "linear": 4,
+            "rf": 30,
+            "xgb": 43
+          }
+        },
+        "low_scenario": {
+          "condition": "\u2264 -0.29",
+          "best_expert": "XGBoost",
+          "wins": {
+            "linear": 48,
+            "rf": 74,
+            "xgb": 110
+          }
+        }
+      },
+      "cross_validation": {
+        "voting": {
+          "mean_r2": 0.879251530623336,
+          "std_r2": 0.015133298907167282,
+          "confidence_95": [
+            0.8495902647652882,
+            0.9089127964813839
+          ],
+          "all_scores": [
+            0.8775925247470174,
+            0.8578611721647342,
+            0.9053298720829833,
+            0.8779785985618159,
+            0.8774954855601299
+          ]
+        },
+        "stacking": {
+          "mean_r2": 0.899341412444112,
+          "std_r2": 0.015384693855039676,
+          "confidence_95": [
+            0.8691874124882343,
+            0.9294954123999898
+          ],
+          "all_scores": [
+            0.9204603706365555,
+            0.8741302530885222,
+            0.9009035105322584,
+            0.893671400439823,
+            0.9075415275234012
+          ]
+        },
+        "statistical_test": {
+          "p_value": 0.06410279746741593,
+          "is_significant": false,
+          "confidence_level": "95%"
+        }
+      }
+    },
+    "dataset_info": {
+      "dataset_id": "concrete",
+      "n_samples": 1030,
+      "n_features": 8,
+      "feature_names": [
+        "cement",
+        "blast_furnace_slag",
+        "fly_ash",
+        "water",
+        "superplasticizer",
+        "coarse_aggregate",
+        "fine_aggregate",
+        "age"
+      ],
+      "is_classification": false,
+      "task_type": "regression",
+      "target_variable": "concrete_compressive_strength",
+      "train_size": 721,
+      "test_size": 309
+    }
+  }
+}

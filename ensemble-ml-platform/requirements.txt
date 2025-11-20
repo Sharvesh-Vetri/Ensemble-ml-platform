@@ -1,0 +1,29 @@
+# =============================================================================
+# Ensemble ML Platform - Python Requirements
+# =============================================================================
+# Professional-grade ensemble visualization platform
+# Tech Stack: Next.js 15, React 19, TypeScript, Python ML Pipeline
+# =============================================================================
+
+# Core Data Science Libraries
+pandas>=2.0.0,<3.0.0
+numpy>=1.24.0,<2.0.0
+scipy>=1.10.0,<2.0.0
+
+# Machine Learning Libraries
+scikit-learn>=1.3.0,<2.0.0
+xgboost>=1.7.6,<3.0.0
+
+# Visualization Libraries
+matplotlib>=3.7.0,<4.0.0
+seaborn>=0.12.0,<1.0.0
+
+# Additional ML Utilities
+joblib>=1.3.0,<2.0.0  # For model serialization
+
+# Testing Libraries (for future pytest integration)
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
+
+# Security Auditing (optional for CI/CD)
+# pip-audit>=2.6.0

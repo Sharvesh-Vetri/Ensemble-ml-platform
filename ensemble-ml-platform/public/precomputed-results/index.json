@@ -1,0 +1,87 @@
+{
+  "datasets": [
+    "automobile",
+    "concrete",
+    "loan"
+  ],
+  "methods": [
+    "voting",
+    "stacking"
+  ],
+  "meta_learners": [
+    "linear",
+    "random_forest",
+    "xgboost"
+  ],
+  "combinations": [
+    {
+      "dataset": "automobile",
+      "method": "voting",
+      "file": "automobile-voting.json"
+    },
+    {
+      "dataset": "concrete",
+      "method": "voting",
+      "file": "concrete-voting.json"
+    },
+    {
+      "dataset": "loan",
+      "method": "voting",
+      "file": "loan-voting.json"
+    },
+    {
+      "dataset": "automobile",
+      "method": "stacking",
+      "meta_learner": "linear",
+      "file": "automobile-stacking-linear.json"
+    },
+    {
+      "dataset": "automobile",
+      "method": "stacking",
+      "meta_learner": "random_forest",
+      "file": "automobile-stacking-random_forest.json"
+    },
+    {
+      "dataset": "automobile",
+      "method": "stacking",
+      "meta_learner": "xgboost",
+      "file": "automobile-stacking-xgboost.json"
+    },
+    {
+      "dataset": "concrete",
+      "method": "stacking",
+      "meta_learner": "linear",
+      "file": "concrete-stacking-linear.json"
+    },
+    {
+      "dataset": "concrete",
+      "method": "stacking",
+      "meta_learner": "random_forest",
+      "file": "concrete-stacking-random_forest.json"
+    },
+    {
+      "dataset": "concrete",
+      "method": "stacking",
+      "meta_learner": "xgboost",
+      "file": "concrete-stacking-xgboost.json"
+    },
+    {
+      "dataset": "loan",
+      "method": "stacking",
+      "meta_learner": "linear",
+      "file": "loan-stacking-linear.json"
+    },
+    {
+      "dataset": "loan",
+      "method": "stacking",
+      "meta_learner": "random_forest",
+      "file": "loan-stacking-random_forest.json"
+    },
+    {
+      "dataset": "loan",
+      "method": "stacking",
+      "meta_learner": "xgboost",
+      "file": "loan-stacking-xgboost.json"
+    }
+  ]
+}
