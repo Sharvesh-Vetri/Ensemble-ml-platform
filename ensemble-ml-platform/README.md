@@ -165,59 +165,58 @@ Proprietary – internal demo use unless explicitly approved otherwise. Keep dep
 
 ## 📸 Project Screenshots
 
+---
+
 ### 🏁 Choose Dataset
-![Choose Dataset](public/screenshots/home-choose-dataset.png)
+![Choose Dataset](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/home-choose-dataset.png)
 
 ### 🧠 Choose Ensemble Method
-![Choose Ensemble Method](public/screenshots/choose-ensemble-method.png)
+![Choose Ensemble Method](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/choose-ensemble-method.png)
 
 ### 🎯 Choose Meta-Learner
-![Choose Meta Learner](public/screenshots/choose-meta-learner.png)
+![Choose Meta Learner](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/choose-meta-learner.png)
 
 ---
 
 ## 🚗 Fuel Efficiency Story (Automobile Dataset)
 
 ### 📊 Fuel Efficiency Results
-![Fuel Efficiency Results](public/screenshots/fuel-efficiency-results.png)
+![Fuel Efficiency Results](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/fuel-efficiency-results.png)
 
 ### 🧠 Meta-Learning Overview
-![Meta Learning Overview](public/screenshots/meta-learning-overview.png)
+![Meta Learning Overview](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/meta-learning-overview.png)
 
 ### 💡 What This Means
-![What This Means](public/screenshots/what-this-means.png)
+![What This Means](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/what-this-means.png)
 
 ### 📈 Feature Importance
-![Feature Importance](public/screenshots/feature-importance-bar-chart.png)
+![Feature Importance](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/feature-importance-bar-chart.png)
 
 ### 🎯 Prediction Accuracy
-![Prediction Accuracy](public/screenshots/prediction-accuracy.png)
+![Prediction Accuracy](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/prediction-accuracy.png)
 
 ### 👥 Model Agreement
-![Model Agreement](public/screenshots/model-agreement.png)
+![Model Agreement](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/model-agreement.png)
 
 ### 📉 Error Distribution
-![Error Distribution](public/screenshots/error-distribution.png)
+![Error Distribution](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/error-distribution.png)
 
 ### 🔍 Prediction Confidence & Overall Performance
-![Prediction Confidence](public/screenshots/prediction-confidence-and-overall-performance.png)
+![Prediction Confidence](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/prediction-confidence-and-overall-perfo.png)
 
 ---
 
 ## 🔬 Real Predictions
-![Real Predictions](public/screenshots/real-predictions.png)
+![Real Predictions](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/real-predictions.png)
 
 ---
 
 ## 🥊 Model Comparisons
-![Model Comparison](public/screenshots/model-comparission.png)
+![Model Comparison](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/model-comparission.png)
 
-![Model Comparison 2](public/screenshots/model-comparission2.png)
+![Model Comparison 2](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/model-comparission2.png)
 
 ---
 
 ## 🏆 Stacking vs Voting Explained
-![Stacking vs Voting](public/screenshots/stacking-vs-voting-explained.png)
-
-
-
+![Stacking vs Voting](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/stacking-vs-voting-explained.png)
