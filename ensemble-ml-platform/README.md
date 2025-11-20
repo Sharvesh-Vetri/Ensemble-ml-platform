@@ -163,60 +163,61 @@ Regenerate whenever you change the Python logic or want refreshed visualizations
 
 Proprietary – internal demo use unless explicitly approved otherwise. Keep dependencies updated and rerun `npm run precompute` whenever Python logic changes to keep the UI and cached data in sync.
 
-## 📸 Project Screenshots
+## Project Screenshots
 
 ---
 
-### 🏁 Choose Dataset
+### Choose Dataset
 ![Choose Dataset](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/home-choose-dataset.png)
 
-### 🧠 Choose Ensemble Method
+### Choose Ensemble Method
 ![Choose Ensemble Method](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/choose-ensemble-method.png)
 
-### 🎯 Choose Meta-Learner
+### Choose Meta-Learner
 ![Choose Meta Learner](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/choose-meta-learner.png)
 
 ---
 
-## 🚗 Fuel Efficiency Story (Automobile Dataset)
+## Fuel Efficiency Story (Automobile Dataset)
 
-### 📊 Fuel Efficiency Results
+### Fuel Efficiency Results
 ![Fuel Efficiency Results](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/fuel-efficiency-results.png)
 
-### 🧠 Meta-Learning Overview
+### Meta-Learning Overview
 ![Meta Learning Overview](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/meta-learning-overview.png)
 
-### 💡 What This Means
+### What This Means
 ![What This Means](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/what-this-means.png)
 
-### 📈 Feature Importance
+### Feature Importance
 ![Feature Importance](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/feature-importance-bar-chart.png)
 
-### 🎯 Prediction Accuracy
+### Prediction Accuracy
 ![Prediction Accuracy](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/prediction-accuracy.png)
 
-### 👥 Model Agreement
+### Model Agreement
 ![Model Agreement](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/model-agreement.png)
 
-### 📉 Error Distribution
+### Error Distribution
 ![Error Distribution](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/error-distribution.png)
 
-### 🔍 Prediction Confidence & Overall Performance
+### Prediction Confidence & Overall Performance
 ![Prediction Confidence](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/prediction-confidence-and-overall-perfo.png)
 
 ---
 
-## 🔬 Real Predictions
+## Real Predictions
 ![Real Predictions](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/real-predictions.png)
 
 ---
 
-## 🥊 Model Comparisons
+## Model Comparisons
 ![Model Comparison](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/model-comparission.png)
 
 ![Model Comparison 2](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/model-comparission2.png)
 
 ---
 
-## 🏆 Stacking vs Voting Explained
+##  Stacking vs Voting Explained
 ![Stacking vs Voting](https://raw.githubusercontent.com/Sharvesh-Vetri/Ensemble-ml-platform/main/public/screenshots/stacking-vs-voting-explained.png)
+
