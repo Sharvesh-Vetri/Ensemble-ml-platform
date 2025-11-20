@@ -163,79 +163,61 @@ Regenerate whenever you change the Python logic or want refreshed visualizations
 
 Proprietary – internal demo use unless explicitly approved otherwise. Keep dependencies updated and rerun `npm run precompute` whenever Python logic changes to keep the UI and cached data in sync.
 
-## 📸 Screenshots
+## 📸 Project Screenshots
 
-### 🏠 Homepage — Choose Your Story
-<img src="./public/screenshots/home-choose-dataset.png" width="850"/>
+### 🏁 Choose Dataset
+![Choose Dataset](public/screenshots/home-choose-dataset.png)
 
----
+### 🧠 Choose Ensemble Method
+![Choose Ensemble Method](public/screenshots/choose-ensemble-method.png)
 
-### 🧠 Ensemble Method Selection
-<img src="./public/screenshots/choose-ensemble-method.png" width="850"/>
-
----
-
-### 🧩 Choose Your Meta-Learner
-<img src="./public/screenshots/choose-meta-learner.png" width="850"/>
+### 🎯 Choose Meta-Learner
+![Choose Meta Learner](public/screenshots/choose-meta-learner.png)
 
 ---
 
-### 🚗 Fuel Efficiency — Ensemble Results
-<img src="./public/screenshots/fuel-efficiency-results.png" width="850"/>
+## 🚗 Fuel Efficiency Story (Automobile Dataset)
 
----
+### 📊 Fuel Efficiency Results
+![Fuel Efficiency Results](public/screenshots/fuel-efficiency-results.png)
 
 ### 🧠 Meta-Learning Overview
-<img src="./public/screenshots/meta-learning-overview.png" width="850"/>
+![Meta Learning Overview](public/screenshots/meta-learning-overview.png)
 
----
+### 💡 What This Means
+![What This Means](public/screenshots/what-this-means.png)
 
-### 📘 What This Means (Real-World Breakdown)
-<img src="./public/screenshots/what-this-means.png" width="850"/>
-
----
-
-### 🔧 Feature Importance
-<img src="./public/screenshots/feature-importance-bar-chart.png" width="850"/>
-
----
+### 📈 Feature Importance
+![Feature Importance](public/screenshots/feature-importance-bar-chart.png)
 
 ### 🎯 Prediction Accuracy
-<img src="./public/screenshots/prediction-accuracy.png" width="850"/>
-
----
+![Prediction Accuracy](public/screenshots/prediction-accuracy.png)
 
 ### 👥 Model Agreement
-<img src="./public/screenshots/model-agreement.png" width="850"/>
-
----
+![Model Agreement](public/screenshots/model-agreement.png)
 
 ### 📉 Error Distribution
-<img src="./public/screenshots/error-distribution.png" width="850"/>
+![Error Distribution](public/screenshots/error-distribution.png)
+
+### 🔍 Prediction Confidence & Overall Performance
+![Prediction Confidence](public/screenshots/prediction-confidence-and-overall-performance.png)
 
 ---
 
-### 📊 Prediction Confidence & Overall Performance
-<img src="./public/screenshots/prediction-confidence-and-overall-performance.png" width="850"/>
+## 🔬 Real Predictions
+![Real Predictions](public/screenshots/real-predictions.png)
 
 ---
 
-### 🔎 Real Predictions (Actual vs Experts vs Ensemble)
-<img src="./public/screenshots/real-predictions.png" width="850"/>
+## 🥊 Model Comparisons
+![Model Comparison](public/screenshots/model-comparission.png)
+
+![Model Comparison 2](public/screenshots/model-comparission2.png)
 
 ---
 
-### 📈 Model Comparison — Voting vs Stacking (View 1)
-<img src="./public/screenshots/model-comparission.png" width="850"/>
+## 🏆 Stacking vs Voting Explained
+![Stacking vs Voting](public/screenshots/stacking-vs-voting-explained.png)
 
----
-
-### 📈 Model Comparison — Voting vs Stacking (View 2)
-<img src="./public/screenshots/model-comparission2.png" width="850"/>
-
----
-
-### 💡 Stacking vs Voting — Final Explanation
-<img src="./public/screenshots/stacking-vs-voting-explained.png" width="850"/>
 
 
